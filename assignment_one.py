@@ -1,24 +1,24 @@
-number1 = float(input('Enter the first number: '))
-number2 = float(input('Enter the first number: '))
+first_number = float(input('Enter the first number: '))
+second_number = float(input('Enter the first number: '))
 
 # perform Addition
-addition = number1 + number2
+addition = first_number + second_number
 
 # perform subtraction
-subtraction = number1 - number2
+subtraction = first_number - second_number
 
 # perform multiplication
-multiplication = number1 * number2
+multiplication = first_number * second_number
 
 
 # perform division
-if number2 != 0:
-    division = number1 / number2
+if second_number != 0:
+    division = first_number / second_number
 else:
     division = "undefined (cannot be divided by zero)"
 
 # print section
-print(f'The result of {number1} + {number2} is {addition}')
-print(f'The result of {number1} - {number2} is {subtraction}')
-print(f'The result of {number1} * {number2} is {multiplication}')
-print(f'The result of {number1} / {number2} is {division}')
+print(f'The result of {first_number} + {second_number} is {addition}')
+print(f'The result of {first_number} - {second_number} is {subtraction}')
+print(f'The result of {first_number} * {second_number} is {multiplication}')
+print(f'The result of {first_number} / {second_number} is {division}')
