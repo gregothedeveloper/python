@@ -15,7 +15,7 @@ multiplication = number1 * number2
 if number2 != 0:
     division = number1 / number2
 else:
-    division = "undefined (cannot divide by zero)"
+    division = "undefined (cannot be divided by zero)"
 
 # print section
 print(f'The result of {number1} + {number2} is {addition}')
